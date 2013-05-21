@@ -7,7 +7,7 @@
 //
 
 #import "AVfoundationViewController.h"
-
+//slowrall
 @interface AVfoundationViewController ()
 {
     SystemSoundID toneSSIDs[2];
@@ -34,7 +34,7 @@
    // currentTimeUpdater = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(updateCurrentiPodItemTime) userInfo:NULL repeats:YES];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
+    NSString *hi = [[NSString alloc]init];
     
     NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:@"jcole" ofType:@"mp3"];
     NSURL *pathAsURL = [[NSURL alloc] initFileURLWithPath:audioFilePath];
