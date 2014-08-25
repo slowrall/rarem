@@ -31,6 +31,9 @@
 {
     [super viewDidLoad];
     
+    
+    
+    NSString *thisIstheNewFileWeAdded  = @"Just Added";
    // currentTimeUpdater = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(updateCurrentiPodItemTime) userInfo:NULL repeats:YES];
 	// Do any additional setup after loading the view, typically from a nib.
     
